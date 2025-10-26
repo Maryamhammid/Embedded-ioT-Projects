@@ -1,0 +1,44 @@
+# LED Control using Two Push Buttons and OLED Display
+
+**Name:** Maryam Hamid  
+**Reg No:** 23-NTU-CS-1046  
+**Course:** Embedded IoT Systems (CSE-3080)  
+**Semester:** Fall 2025  
+
+---
+
+## 🔗 Wokwi Simulation
+👉 [View Simulation on Wokwi](https://wokwi.com/projects/example-led-oled-buttons)  
+*(Replace this link with your actual Wokwi project URL once uploaded.)*
+
+---
+
+## ⚙️ Pin Map (ESP32 NodeMCU-32S)
+
+| Component | Function | GPIO Pin |
+|------------|-----------|-----------|
+| Red LED | Output | 16 |
+| Green LED | Output | 17 |
+| Blue LED | Output | 18 |
+| Mode Button | Input (Pull-up) | 32 |
+| Reset Button | Input (Pull-up) | 33 |
+| OLED SDA | I²C Data | 21 |
+| OLED SCL | I²C Clock | 22 |
+| OLED VCC | Power | 3.3V |
+| OLED GND | Ground | GND |
+
+---
+
+## 🖼️ Screenshots
+
+| Mode | Description | Screenshot |
+|------|--------------|-------------|
+| 0 | All LEDs OFF | ![All OFF](screenshots/all_off.png) |
+| 1 | Alternate Blink | ![Alternate Blink](screenshots/alternate_blink.png) |
+| 2 | All LEDs ON | ![All ON](screenshots/all_on.png) |
+| 3 | PWM Fade | ![PWM Fade](screenshots/pwm_fade.png) |
+
+---
+
+📁 **Note:**  
+Place all screenshots inside the `screenshots/` folder and ensure they are clearly labeled according to the table above.

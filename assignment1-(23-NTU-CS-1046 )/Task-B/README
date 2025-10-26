@@ -1,0 +1,28 @@
+# Single Button with Press-Type Detection and OLED Display
+
+**Name:** Maryam Hamid  
+**Reg No:** 23-NTU-CS-1046  
+**Course:** Embedded IoT Systems (CSE-3080)  
+**Semester:** Fall 2025  
+
+---
+
+## 🔗 Wokwi Simulation
+👉 [View on Wokwi]
+https://wokwi.com/projects/445805530407762945
+
+---
+
+## ⚙️ Pin Map (ESP32 NodeMCU-32S)
+
+| Component | Function | GPIO Pin |
+|------------|-----------|-----------|
+| Push Button | Input (active LOW) | 32 |
+| LED | Output | 16 |
+| Buzzer | Output | 27 |
+| OLED SDA | I²C Data | 21 |
+| OLED SCL | I²C Clock | 22 |
+| OLED VCC | Power | 3.3 V |
+| OLED GND | Ground | GND |
+
+---
