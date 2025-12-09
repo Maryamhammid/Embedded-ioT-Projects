@@ -12,9 +12,9 @@ Reg No        : 23-NTU-CS-1046
 #define LED_RED     16      // LED 1 - Red
 #define LED_GREEN   17      // LED 2 - Green
 #define LED_BLUE    18      // LED 3 - Blue
-#define BTN_MODE    32      // Push button to cycle through modes
+// #define BTN_MODE    32      // Push button to cycle through modes
 #define BTN_RESET   33      // Push button to reset LEDs
-
+const int BTN_MODE = 32;    // Push button to cycle through modes
 // ---------------------------- OLED Display Setup -------------------------
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
